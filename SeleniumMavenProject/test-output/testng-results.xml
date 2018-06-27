@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6073447" started-at="2018-06-25T16:36:28Z" finished-at="2018-06-25T18:17:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6073447" started-at="2018-06-25T16:36:28Z" finished-at="2018-06-25T18:17:41Z">
+      <class name="com.dragon.test.FacebookTest">
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.dragon.test.FacebookTest@7f9a81e8]" name="initialiseBrowser" is-config="true" duration-ms="12235" started-at="2018-06-25T22:06:28Z" finished-at="2018-06-25T22:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="TC00001_FacebookLoginTest()[pri:0, instance:com.dragon.test.FacebookTest@7f9a81e8]" name="TC00001_FacebookLoginTest" duration-ms="13074" started-at="2018-06-25T22:06:40Z" finished-at="2018-06-25T22:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC00001_FacebookLoginTest -->
+        <test-method status="PASS" signature="TC00002_SearchFriendAndVerifyProfileTest()[pri:0, instance:com.dragon.test.FacebookTest@7f9a81e8]" name="TC00002_SearchFriendAndVerifyProfileTest" duration-ms="6010296" started-at="2018-06-25T22:06:53Z" finished-at="2018-06-25T23:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC00002_SearchFriendAndVerifyProfileTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dragon.test.FacebookTest@7f9a81e8]" name="closeBrowser" is-config="true" duration-ms="24185" started-at="2018-06-25T23:47:17Z" finished-at="2018-06-25T23:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dragon.test.FacebookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

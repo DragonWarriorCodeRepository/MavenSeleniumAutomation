@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Test Suite]">
+  <parameter name="browserName" value="Chrome"/>
+  <test name="Facebook Test(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.dragon.test.FacebookTest">
+        <methods>
+          <include name="TC00001_FacebookLoginTest"/>
+          <include name="initialiseBrowser"/>
+        </methods>
+      </class> <!-- com.dragon.test.FacebookTest -->
+    </classes>
+  </test> <!-- Facebook Test(failed) -->
+</suite> <!-- Failed suite [Facebook Test Suite] -->
