@@ -27,8 +27,7 @@ public class FacebookTest extends BaseTest {
 			loginPage.ClickLoginButton();
 			Thread.sleep(2000);
 			Webdriver.driver.switchTo().alert().dismiss();
-			if(true)
-			throw new NoSuchMethodException();
+			
 			Assert.assertTrue(Webdriver.driver.getTitle().contains("Facebook"));
 
 		} catch (Exception e) {
